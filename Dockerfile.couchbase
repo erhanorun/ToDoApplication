@@ -1,0 +1,5 @@
+FROM couchbase:latest
+
+COPY src//main//resources//configure.sh configure.sh
+
+CMD ["./configure.sh"]
